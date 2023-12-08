@@ -1,0 +1,42 @@
+
+Q.2 
+sahil@sahil-ThinkPad-E490:~$ ls -i
+5373987  Desktop         5373993  Pictures
+6029506  DockerPractice  5373990  Public
+5373991  Documents       5441384  Q1.sh
+5373988  Downloads       5374131  snap
+5388219  HTML_CSS        6160385  sts-bundle
+5399023  LEETCODE        5373989  Templates
+5373992  Music           5373994  Videos
+5375764  PG-DAC          6296230  WALLPAPERS
+5376866 'PG-DAC NOTES'   6029398 'Yash Assignments'
+5400702  Photo.jpeg
+
+Q.3
+1)sahil@sahil-ThinkPad-E490:~/Desktop/LAB EXAMS/80248_COSSDM$ grep "is" data.txt
+"Linux is open source.
+In linux everything is a file.
+Linux is very powerful.
+Security is the main
+
+sahil@sahil-ThinkPad-E490:~/Desktop/LAB EXAMS/80248_COSSDM$ grep -c  "is" data.txt
+4
+
+2)
+sahil@sahil-ThinkPad-E490:~/Desktop/LAB EXAMS/80248_COSSDM$ cat -n data.txt
+     1	"Linux is open source.
+     2	In linux everything is a file.
+     3	Linux is very powerful.
+     4	Security is the main
+     5	advantage."
+sahil@sahil-ThinkPad-E490:~/Desktop/LAB EXAMS/80248_COSSDM$ wc<data.txt
+  5  19 111
+
+
+
+Q.4 
+grep "a" sample.txt | rev
+taB
+taoG
+taE
+
